@@ -1,0 +1,11 @@
+# Generating random words
+https://wonderwords.readthedocs.io/en/latest/quickstart.html#the-randomsentence-class
+
+# How to
+1. Run `python3 -m venv env` to create virtual environment
+2. activate env : 'source env/bin/activate'
+3. Run `pip3 install -r requirements.txt` to install Python packages
+4. Run `docker-compose up` to spin up Kafka broker
+5. Run `python3 sentences_producer.py` to run the producer to produce data
+6. Run `python3 analytics.py` to get the data stream from Kafka and run the sentiment analysis
+
